@@ -1,0 +1,110 @@
+h1 {
+    color: red;
+  }
+
+body {
+  background: black; 
+  font-family: Inter;
+}
+
+
+
+.main {
+ background-color: #23252C;
+ width: 500px;
+ height: 868px;
+ margin-top: 53px;
+ margin-left: 65px;
+
+}
+
+.person-img {
+  top: 44px;
+  left: 116px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card {
+  padding: 20px 20px 20px 20px;
+  background-color: #23252C;
+  color: #FFFFFF;
+  align-items: center;
+  flex: 1 1 0px;
+
+}
+
+.card-body {
+  background-color: #1A1B21;
+}
+
+.card-heading {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  font-family: Inter;
+  color: #FFFFFF;
+
+}
+
+.card-button {
+  flex:1;
+
+  width: 115px;
+  height:100%;
+  border-radius: 6px;
+  border: 1px;
+  padding: 9px 13px 9px 11px;
+
+}
+
+.card-designation {
+  font-weight: 400;
+  font-size: 12.8px;
+  text-align: center;
+  font-family: Inter;
+  color: #F3BF99;
+}
+
+.buttondiv {
+  display:flex;
+}
+
+.card-website {
+  text-align: center;
+  font-size: 10.24px;
+  font-weight: 400;
+
+}
+
+.header {
+  text-align: center;
+}
+
+.buttonGroup {
+  display: flexbox;
+  
+}
+
+.card-info-heading {
+  padding: 0;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  font-family: Inter;
+  color: #F5F5F5;
+}
+
+.card-info-detail {
+  font-weight: 400;
+  font-size: 10.24px;
+  text-align: left;
+  font-family: Inter;
+  color: #DCDCDC;
+}
+
+  /* make the customizations */
+$theme-colors: (
+  'info': tomato,
+  'danger': teal
+);
+
